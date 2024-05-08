@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
+import { useTitle } from "../hooks/useTitle";
 
 export const MovieDetail = () => {
   const params = useParams();
@@ -14,6 +15,8 @@ export const MovieDetail = () => {
     }
     fetchMovie();
   })
+
+  useTitle(movie.title);
 
   return (
     <main>
