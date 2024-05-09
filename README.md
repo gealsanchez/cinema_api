@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h3><b>React Cinema Project</b></h3>
+<h1><b>React Cinema Project</b></h1>
 
 </div>
 
@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 React Capstone Project <a name="about-project"></a>
+# 📖 React Project <a name="about-project"></a>
 
 **Cinema Project** shows data (name, overview, release date) about top rated, popular and upcoming movies 
 
